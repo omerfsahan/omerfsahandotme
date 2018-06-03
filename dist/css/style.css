@@ -83,6 +83,13 @@ body, html {
         background: #ffe000;
         color: #16151b;
     }
+
+    .scroll-navbar.navbar .navbar-nav .nav-item.active .nav-link{
+        background: #ffe000;
+        color: #16151b;
+    }
+
+
     .content {
         margin-top: 70px;
         padding-bottom: 70px;
@@ -100,10 +107,24 @@ body, html {
     display: none;
 }
 
+#language {
+border-radius: 0;
+position: absolute;
+right: 40px; 
+margin-top: 8.5px;
+cursor: pointer;
+}
+
 .content-wrap {
     margin-bottom: 406px; 
     background: #FFF;
 }
+
+.content-wrap.work {
+    background: #333;
+}
+
+
 .content {
     margin-top: 70px;
     padding-bottom: 70px;
