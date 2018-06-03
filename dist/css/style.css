@@ -1,0 +1,321 @@
+.bg-jaguar {
+    background: #16151b!important;
+}
+
+hr.section-divider {
+    background: #ccc;
+    margin: 50px 0;
+}
+
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .left-navbar {
+        background: #16151b;
+        padding: 0;
+        height: 70px;
+        width: 40%;
+        z-index: 10;
+    }
+    .left-navbar .navbar-brand {
+        background: #ffe000;
+        color: #16151b;
+        padding: 20px;
+        text-transform: uppercase;
+        font-weight: 650;
+        transition: .3s all;
+    }
+    .collapse.navbar-collapse {
+        background-attachment: fixed;
+        background: url(../img/placeimg_640_480_tech.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 70px;
+        left: 0;
+    }
+    .collapse.navbar-collapse .navbar-nav {
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 24%;
+    }
+    .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
+        text-transform: uppercase;
+        font-size: 24px;
+        padding: 2px;
+        transition: .3s all;
+    }
+    .collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        background: rgba(255, 255, 255, 0.05);
+    }
+    .collapse.navbar-collapse .navbar-nav .nav-item.active .nav-link {
+        color: #ffe000;
+    }
+    .scroll-navbar.navbar {
+        background: #16151b!important;
+        height: 70px;
+        width: 60%;
+        display: block;
+    }
+    .scroll-navbar.navbar .navbar-nav {
+        background: rgba(255, 255, 255, 0.1);
+        float: left;
+        margin-top: 8.5px;
+    }
+    .scroll-navbar.navbar .navbar-nav .nav-item .nav-link {
+        text-transform: capitalize;
+        padding: 10px 16px;
+        font-size: 14px;
+        color: #FFF;
+    }
+    .scroll-navbar.navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #ffe000;
+    }
+    .scroll-navbar.navbar .navbar-nav .nav-item .nav-link.active {
+        background: #ffe000;
+        color: #16151b;
+    }
+    .content {
+        margin-top: 70px;
+        padding-bottom: 70px;
+    }
+    .content-wrap {
+        margin-bottom: 306px!important;
+    }
+    #about, #resume, #services, #skills, #clients, .footer {
+        padding-left: 105.8px;
+        color: #16151b!important;
+    }
+}
+
+.scroll-navbar {
+    display: none;
+}
+
+.content-wrap {
+    margin-bottom: 406px; 
+    background: #FFF;
+}
+.content {
+    margin-top: 70px;
+    padding-bottom: 70px;
+}   
+
+
+#about h1, #resume h1, #services h1, #skills h1, #clients h1 {
+    color: #16151b;
+    padding: 0px 25px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#about h3, #resume h3, #services h3, #skills h3, #clients h3 {
+    color: #02020e;
+    background: #ffe000;
+    display: inline-block;
+    margin: 1em;
+    padding: 8px 25px;
+    margin-bottom: 4px;
+}
+
+#about h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#about h4 span {
+    color: #ffe000;
+}
+
+.antrasit {
+    font-size: 16px;
+    color: #595959;
+    font-weight: 900;
+}
+
+.divider {
+    height: 2px;
+    width: 180px;
+    background: #ffe000;
+    margin-left: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.divider:before {
+    content: '';
+    height: 8px;
+    width: 80px;
+    display: block;
+    background: #ffe000;
+    margin: 0;
+}
+
+.btn.work-btn {
+    overflow: hidden;
+    position: relative;
+    transition: .2s all;
+    transition-delay: .2s;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    padding: 8px 25px;
+    border: 0;
+}
+
+.work-btn i {
+    text-align: center;
+    padding: 8px 25px;
+    height: 100%;
+    line-height: 25px;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    color: #FFF;
+    top: 0;
+    background: #16151b;
+    left: -60px;
+    transition: .4s all;
+    font-weight: 900;
+}
+
+.btn.work-btn:hover i {
+    left: 0;
+}
+
+.some-facts h1 {
+    font-size: 65px!important;
+}
+
+#accordion .card {
+    border: 0px;
+}
+
+#accordion .card .card-header {
+    background: #FFF;
+    color: #16151b;
+}
+
+#accordion .card .card-header h5 {
+    cursor: pointer;
+}
+
+#accordion .card .card-header h5 .fa {
+    font-size: 24px;
+    color: #16151b;
+    transform: rotate(15deg);
+}
+
+#accordion .card ul li {
+    margin: 0px 25px;
+    float: left;
+    font-size: small;
+    list-style: square;
+    color: #333;
+}
+
+.carousel-item {
+    padding-top: 70px;
+}
+
+.carousel-control-prev {
+    background: #ffe000;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    right: 42px;
+    left: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-next {
+    background: #ffe000;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.card, .card-img-top {
+    border-radius: 0;
+    border: none;
+}
+
+.btn-outline-dark {
+    border-color: #16151b;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.btn-outline-dark:hover {
+    background: #16151b;
+}
+
+.progress {
+    background: #ccc;
+    position: relative;
+    overflow: visible;
+    height: 5px;
+}
+
+.progress .skill-name {
+    position: absolute;
+    top: -20px;
+    color: #16151b;
+    text-transform: capitalize;
+}
+
+.progress .skill-percent {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    color: #16151b;
+    text-transform: capitalize;
+}
+
+.footer {
+    background: #16151b;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 14px;
+}
+
+.footer h5 {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.footer .header-divider {
+    background: #ffe000;
+    width: 80px;
+    height: 2px;
+    margin-left: 0;
+}
+
+.footer ul li a {
+    background: #ffe000;
+    color: #02020e;
+    text-decoration: none;
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    box-shadow: 3px 3px 20px #000;
+}
